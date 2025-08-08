@@ -1,0 +1,36 @@
+.section {
+  margin: 2rem;
+}
+
+button {
+  display: block;
+  margin: 0.5rem auto;
+  background-color: rgb(175, 247, 249);
+  cursor: pointer;
+  border: 1px solid #888;
+  border-radius: 11px;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: rgb(102, 142, 144);
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+input {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border-radius: 11px;
+  font-size: 1rem;
+}
+
+input:focus {
+  box-shadow: 0 0 12px 0.1rem rgb(102, 142, 144);
+}

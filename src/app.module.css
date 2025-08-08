@@ -1,8 +1,16 @@
 .main {
-  width: 100vh;
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 h2 {
   margin: 1rem;
+}
+
+section {
+  border: 0.2rem solid #bbb;
+  border-radius: 11px;
+  min-height: 25rem;
+  min-width: 16rem;
 }

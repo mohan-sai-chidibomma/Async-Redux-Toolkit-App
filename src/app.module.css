@@ -11,6 +11,6 @@ h2 {
 section {
   border: 0.2rem solid #bbb;
   border-radius: 11px;
-  min-height: 25rem;
+  height: 20rem;
   min-width: 16rem;
 }
